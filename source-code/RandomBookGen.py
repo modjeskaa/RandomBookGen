@@ -131,8 +131,7 @@ def load_frame2():
 def load_frame3():
     global genre_var, bg_image
     selected_genre = genre_var.get()
-
-    # Hide frame1 widgets
+    
     for widget in root.winfo_children():
         widget.destroy()
 
