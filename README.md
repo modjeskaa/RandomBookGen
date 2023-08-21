@@ -12,9 +12,9 @@ Oferuje użytkownikom mozliwość odkrywania nowych książek do przeczytania na
 
 <ol>
   <li><b>Brak oficjalnego API:</b> serwis nie udostępinia oficjalnego API, co oznaczało konieczność wykorzystania webscrapingu.</li>
-  Projekt wymagał napisania dwóch scraperów, które pobierają informację o książkach. Następnie zintegrowałam je w aplikacji, aby dostarczyć użytkownikom spersonalizowane propozycje. 
+  Projekt wymagał napisania dwóch scraperów, które pobierają informację o książkach, aby dostarczyć użytkownikom spersonalizowanych propozycji.
   <li><b>Integracja scraperów z graficzną aplikacją Tkinter</b></li>
-  Wprowadziłam odpowiednie struktury funkcji które wywołują scrapery, przetwarzają ich wyniki i prezentują użytkownikom wyniki w formie graficznej (okładka, link do książki, tytuł oraz autor). 
+  Aplikacja przetwarza wyniki uzyskane ze scraperów i prezentuje je użytkownikom w formie graficznej (okładka, link do książki, tytuł oraz autor). 
 </ol>
 
 
